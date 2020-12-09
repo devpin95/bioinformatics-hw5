@@ -14,6 +14,8 @@ iter = args.iter if args.iter is not None else 5
 # print("k = " + str(k) + " on file " + args.exp_data)
 
 genes = []
+
+# parse the genes from the file
 for line in exp_data:
     gene = {}
     gene_str = line.split('\t')
@@ -29,6 +31,6 @@ for line in exp_data:
 
     genes.append(gene)
 
-knn = K_Means(k, genes, iter)
-knn.train()
-knn.describe_clusters()
+knn = K_Means(k, genes, iter)  # initialize the kmeans algorithm
+knn.train()  # train the clusters
+knn.describe_clusters()  # print the description of the clusters after training
