@@ -6,7 +6,7 @@ You are to implement the *k-means clustering* algorithm and apply it to a small 
 
 Your program should use Euclidean distance when comparing gene expression profiles to cluster means.
 
-To initialize your cluster means, you should use the following procedure. For each of the *k* clusters, you should select three genes from the input file starting with the first gene in the file and going in order. The initial mean for a given cluster should be the mean vector of these three gene expression profiles. For example, ifk = 3, the first three genes in the file are used to initialize the first cluster, the fourth through sixth genes are used to initialize the second cluster, and the seventh through ninth genes are used to initialize the third cluster.
+To initialize your cluster means, you should use the following procedure. For each of the *k* clusters, you should select three genes from the input file starting with the first gene in the file and going in order. The initial mean for a given cluster should be the mean vector of these three gene expression profiles. For example, if *k = 3*, the first three genes in the file are used to initialize the first cluster, the fourth through sixth genes are used to initialize the second cluster, and the seventh through ninth genes are used to initialize the third cluster.
 
 You can choose to write any programming languages. Please make sure to name your program “Cluster”.
 
